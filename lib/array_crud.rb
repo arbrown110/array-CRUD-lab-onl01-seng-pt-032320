@@ -12,11 +12,11 @@ def add_element_to_end_of_array(array,element)
    array << element
 end  
 
-def add_element_to_start_of_array(array,element)
+def add_element_to_start_of_array(array)
   array = ["I", "am", "really", "learning"]
  
-  element.unshift("wow!")
-  element.inspect
+  array.unshift("wow!")
+  array.inspect
   
 end
 
